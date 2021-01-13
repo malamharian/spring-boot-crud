@@ -1,0 +1,3 @@
+gradlew build
+docker build -t tmp-skill-test-java-docker .
+docker run -p 8080:8080 tmp-skill-test-java-docker
